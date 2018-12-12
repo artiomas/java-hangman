@@ -1,4 +1,4 @@
-package com.vcs.baigiamasis;
+package com.vcs.baigiamasis.v2;
 
 // zodziu laikykla
 

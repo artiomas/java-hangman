@@ -1,7 +1,5 @@
-package com.vcs.baigiamasis;
+package com.vcs.baigiamasis.v2;
 
-import com.vcs.baigiamasis.HangmanGame;
-import com.vcs.baigiamasis.MaskedWord;
 
 public class Main {
 
@@ -12,17 +10,75 @@ public class Main {
 
         MaskedWord outputTest =  game.start();
 
-        System.out.println(outputTest);
+      // boolean win = game.gameWon();
+      //  boolean lose = game.isGameOVer();
 
-        System.out.println( game.guess('g'));
+        //System.out.println(outputTest);
+
+      //   for (int i = 0; i < game.guess(); i++) {}
+
+       // game.gameWon();
+       // game.isGameOVer();
+
+        System.out.println( game.guess('c'));
+        System.out.println( game.gameWon());
+        System.out.println( game.isGameOVer());
+        System.out.println( game.guess('h'));
+        System.out.println( game.gameWon());
+        System.out.println( game.isGameOVer());
         System.out.println( game.guess('a'));
-        System.out.println( game.guess('j'));
-        System.out.println( game.guess('z'));
-        System.out.println( game.guess('f'));
+        System.out.println( game.gameWon());
+        System.out.println( game.isGameOVer());
+        System.out.println( game.guess('m'));
+        System.out.println( game.gameWon());
+        System.out.println( game.isGameOVer());
         System.out.println( game.guess('p'));
-        System.out.println( game.guess('i'));
-        System.out.println( game.guess('y'));
-        System.out.println( game.guess('r'));
+        System.out.println( game.gameWon());
+        System.out.println( game.isGameOVer());
+        System.out.println( game.guess('a'));
+        System.out.println( game.gameWon());
+        System.out.println( game.isGameOVer());
+        System.out.println( game.guess('g'));
+        System.out.println( game.gameWon());
+        System.out.println( game.isGameOVer());
+        System.out.println( game.guess('n'));
+        System.out.println( game.gameWon());
+        System.out.println( game.isGameOVer());
+        System.out.println( game.guess('e'));
+        System.out.println( game.gameWon());
+        System.out.println( game.isGameOVer());
+
+
+//        System.out.println( game.guess('c'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
+//        System.out.println( game.guess('c'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
+//        System.out.println( game.guess('z'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
+//        System.out.println( game.guess('u'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
+//        System.out.println( game.guess('i'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
+//        System.out.println( game.guess('o'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
+//        System.out.println( game.guess('h'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
+//        System.out.println( game.guess('y'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
+//        System.out.println( game.guess('r'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
+//        System.out.println( game.guess('e'));
+//        System.out.println( game.gameWon());
+//        System.out.println( game.isGameOVer());
 
     }
 

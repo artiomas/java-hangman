@@ -1,4 +1,4 @@
-package com.vcs.baigiamasis;
+package com.vcs.baigiamasis.v2;
 
 public class MaskedWord {
 
@@ -13,8 +13,10 @@ public class MaskedWord {
     }
 
     public boolean isGameOVer(){
-        return tryCounter >= maxTry;
+        return tryCounter > maxTry;
     }
+
+
 
     public String getMaskedWord() {
 
@@ -40,7 +42,7 @@ public class MaskedWord {
     @Override
     public String toString(){
 
-        return getMaskedWord() + " " + tryCounter + " / " + maxTry;
+        return getMaskedWord() + " Fails: " + tryCounter + " / " + maxTry;
     }
 
 }

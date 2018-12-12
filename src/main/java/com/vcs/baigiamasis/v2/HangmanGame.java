@@ -1,6 +1,8 @@
-package com.vcs.baigiamasis;
+package com.vcs.baigiamasis.v2;
 
 public class HangmanGame {
+
+    private String youWin = "You win!";
 
 
     private static final int MAXTRIES = 5;
@@ -30,7 +32,7 @@ public class HangmanGame {
         String result = "";
 
         for (int i = 0; i < word.length(); i++) {
-            result += "_";
+            result += "-";
         }
 
         return result;
@@ -58,9 +60,18 @@ public class HangmanGame {
             misscounter++;
         }
 
-
-
         return new MaskedWord(wordMasked, misscounter, MAXTRIES);
     }
+
+    public boolean gameWon() {
+        return (wordMasked.intern() == word.intern());
+
+
+    }
+
+    public boolean isGameOVer(){
+        return misscounter > MAXTRIES;
+    }
+
 
 }
