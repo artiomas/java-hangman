@@ -1,4 +1,4 @@
-package com.vcs.baigiamasis.v2;
+package com.vcs.hangman.v2.functionality;
 
 public class MaskedWord {
 

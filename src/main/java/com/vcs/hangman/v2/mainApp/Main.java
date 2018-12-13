@@ -1,5 +1,8 @@
-package com.vcs.baigiamasis.v2;
+package com.vcs.hangman.v2.mainApp;
 
+
+import com.vcs.hangman.v2.functionality.HangmanGame;
+import com.vcs.hangman.v2.functionality.MaskedWord;
 
 public class Main {
 
@@ -10,15 +13,11 @@ public class Main {
 
         MaskedWord outputTest =  game.start();
 
-      // boolean win = game.gameWon();
-      //  boolean lose = game.isGameOVer();
-
-        //System.out.println(outputTest);
-
-      //   for (int i = 0; i < game.guess(); i++) {}
-
-       // game.gameWon();
-       // game.isGameOVer();
+        /**
+         *
+         * BELOW: Game Won
+         *
+         */
 
         System.out.println( game.guess('c'));
         System.out.println( game.gameWon());
@@ -47,6 +46,15 @@ public class Main {
         System.out.println( game.guess('e'));
         System.out.println( game.gameWon());
         System.out.println( game.isGameOVer());
+
+
+        /**
+         *
+         *
+         * BELOW: Game Over
+         *
+         *
+         */
 
 
 //        System.out.println( game.guess('c'));

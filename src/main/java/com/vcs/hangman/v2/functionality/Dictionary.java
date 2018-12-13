@@ -1,6 +1,4 @@
-package com.vcs.baigiamasis.v2;
-
-// zodziu laikykla
+package com.vcs.hangman.v2.functionality;
 
 import java.util.ArrayList;
 import java.util.List;

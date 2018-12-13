@@ -1,6 +1,7 @@
 # Java-Hangman
 
 
-baigiamas darbas 
+changes to code structure
 
-name test
+preparation to implement spring/springboot
+
