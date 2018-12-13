@@ -12,10 +12,10 @@ public class Dictionary {
     public Dictionary() {
 
         words.add("champagne");
-//        words.add("whiteboard");
-//        words.add("personal");
-//        words.add("computer");
-//        words.add("desk");
+        words.add("whiteboard");
+        words.add("personal");
+        words.add("computer");
+        words.add("desk");
     }
 
 

@@ -12,16 +12,15 @@ public class MaskedWord {
         this.maxTry = maxTry;
     }
 
-    public boolean isGameOVer(){
+    public boolean isGameOVer() {
         return tryCounter > maxTry;
     }
-
 
 
     public String getMaskedWord() {
 
         if (isGameOVer()) {
-            return  "GAME OVER";
+            return "GAME OVER";
         }
 
         return maskedWord;
@@ -40,7 +39,7 @@ public class MaskedWord {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
 
         return getMaskedWord() + " Fails: " + tryCounter + " / " + maxTry;
     }

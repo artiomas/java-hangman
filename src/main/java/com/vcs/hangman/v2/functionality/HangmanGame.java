@@ -5,7 +5,7 @@ public class HangmanGame {
     private String youWin = "You win!";
 
 
-    private static final int MAXTRIES = 5;
+    public static final int MAXTRIES = 5;
 
     private String word;
     private String wordMasked;
@@ -69,7 +69,11 @@ public class HangmanGame {
 
     }
 
-    public boolean isGameOVer(){
+    public int getMissCounter() {
+        return misscounter;
+    }
+
+    public boolean isGameOVer() {
         return misscounter > MAXTRIES;
     }
 

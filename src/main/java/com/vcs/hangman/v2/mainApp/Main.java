@@ -11,7 +11,7 @@ public class Main {
         HangmanGame game = new HangmanGame();
 
 
-        MaskedWord outputTest =  game.start();
+        MaskedWord outputTest = game.start();
 
         /**
          *
@@ -19,33 +19,33 @@ public class Main {
          *
          */
 
-        System.out.println( game.guess('c'));
-        System.out.println( game.gameWon());
-        System.out.println( game.isGameOVer());
-        System.out.println( game.guess('h'));
-        System.out.println( game.gameWon());
-        System.out.println( game.isGameOVer());
-        System.out.println( game.guess('a'));
-        System.out.println( game.gameWon());
-        System.out.println( game.isGameOVer());
-        System.out.println( game.guess('m'));
-        System.out.println( game.gameWon());
-        System.out.println( game.isGameOVer());
-        System.out.println( game.guess('p'));
-        System.out.println( game.gameWon());
-        System.out.println( game.isGameOVer());
-        System.out.println( game.guess('a'));
-        System.out.println( game.gameWon());
-        System.out.println( game.isGameOVer());
-        System.out.println( game.guess('g'));
-        System.out.println( game.gameWon());
-        System.out.println( game.isGameOVer());
-        System.out.println( game.guess('n'));
-        System.out.println( game.gameWon());
-        System.out.println( game.isGameOVer());
-        System.out.println( game.guess('e'));
-        System.out.println( game.gameWon());
-        System.out.println( game.isGameOVer());
+        System.out.println(game.guess('c'));
+        System.out.println(game.gameWon());
+        System.out.println(game.isGameOVer());
+        System.out.println(game.guess('h'));
+        System.out.println(game.gameWon());
+        System.out.println(game.isGameOVer());
+        System.out.println(game.guess('a'));
+        System.out.println(game.gameWon());
+        System.out.println(game.isGameOVer());
+        System.out.println(game.guess('m'));
+        System.out.println(game.gameWon());
+        System.out.println(game.isGameOVer());
+        System.out.println(game.guess('p'));
+        System.out.println(game.gameWon());
+        System.out.println(game.isGameOVer());
+        System.out.println(game.guess('a'));
+        System.out.println(game.gameWon());
+        System.out.println(game.isGameOVer());
+        System.out.println(game.guess('g'));
+        System.out.println(game.gameWon());
+        System.out.println(game.isGameOVer());
+        System.out.println(game.guess('n'));
+        System.out.println(game.gameWon());
+        System.out.println(game.isGameOVer());
+        System.out.println(game.guess('e'));
+        System.out.println(game.gameWon());
+        System.out.println(game.isGameOVer());
 
 
         /**
@@ -89,8 +89,6 @@ public class Main {
 //        System.out.println( game.isGameOVer());
 
     }
-
-
 
 
 }
