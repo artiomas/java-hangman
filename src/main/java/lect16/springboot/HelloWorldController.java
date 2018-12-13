@@ -14,9 +14,9 @@ public class HelloWorldController {
     }
 
     @GetMapping
-    @RequestMapping("/mano/nemano")
+    @RequestMapping("/service")
     public String hw2() {
-        return "kdsjhflkdshfkjdshfk";
+        return "I launched a service!! WOW! MUCH AMAZING!";
     }
 
 }
